@@ -1,0 +1,684 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MedNova | Advanced Healthcare</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Animated Background -->
+    <div class="background-animation">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <span>✚</span> MedNova
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="nav-appointment" onclick="openAppointment()">
+                Book Appointment
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <div class="badge">
+                ● 24/7 Healthcare Available
+            </div>
+
+            <h1>
+                Healthcare
+                <span>Reimagined.</span>
+            </h1>
+
+            <p>
+                Experience advanced healthcare with world-class
+                doctors, modern technology and compassionate care.
+            </p>
+
+            <div class="hero-buttons">
+
+                <button class="primary-btn" onclick="openAppointment()">
+                    Book Appointment →
+                </button>
+
+                <a href="#services" class="outline-btn">
+                    Explore Services
+                </a>
+
+            </div>
+
+
+            <!-- Stats -->
+
+            <div class="stats">
+
+                <div>
+                    <h2>25+</h2>
+                    <p>Specialists</p>
+                </div>
+
+                <div>
+                    <h2>15K+</h2>
+                    <p>Happy Patients</p>
+                </div>
+
+                <div>
+                    <h2>12+</h2>
+                    <p>Departments</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Doctor Image -->
+
+        <div class="hero-doctor">
+
+            <div class="glow"></div>
+
+            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=700&q=85"
+                alt="Doctor">
+
+            <div class="doctor-info">
+
+                <div class="doctor-avatar">
+                    👩‍⚕️
+                </div>
+
+                <div>
+                    <h4>Dr. Sarah Thomas</h4>
+                    <p>Chief Cardiologist</p>
+                </div>
+
+                <span class="online-dot"></span>
+
+            </div>
+
+        </div>
+
+
+        <!-- Floating Medical Elements -->
+
+        <div class="floating-element heart">
+            ❤️
+        </div>
+
+        <div class="floating-element cross">
+            ✚
+        </div>
+
+        <div class="floating-element pulse">
+            ❤️
+        </div>
+
+    </section>
+
+
+    <!-- ================= SERVICES ================= -->
+
+    <section class="services" id="services">
+
+        <div class="section-heading">
+
+            <span>OUR SERVICES</span>
+
+            <h2>
+                Healthcare designed
+                <strong>around you.</strong>
+            </h2>
+
+            <p>
+                From routine checkups to advanced treatments,
+                our specialists are here for you.
+            </p>
+
+        </div>
+
+
+        <div class="service-grid">
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    ❤️
+                </div>
+
+                <h3>Cardiology</h3>
+
+                <p>
+                    Advanced diagnosis and treatment
+                    for heart conditions.
+                </p>
+
+                <a href="#">Explore →</a>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🧠
+                </div>
+
+                <h3>Neurology</h3>
+
+                <p>
+                    Specialized care for brain and
+                    nervous system conditions.
+                </p>
+
+                <a href="#">Explore →</a>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🦴
+                </div>
+
+                <h3>Orthopedics</h3>
+
+                <p>
+                    Modern treatment for bones,
+                    joints and muscles.
+                </p>
+
+                <a href="#">Explore →</a>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🩺
+                </div>
+
+                <h3>General Medicine</h3>
+
+                <p>
+                    Complete healthcare for you
+                    and your family.
+                </p>
+
+                <a href="#">Explore →</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about" id="about">
+
+        <div class="about-image">
+
+            <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=900&q=85"
+                alt="Modern Hospital">
+
+            <div class="image-label">
+                🏥 Modern Medical Facility
+            </div>
+
+        </div>
+
+
+        <div class="about-content">
+
+            <span class="section-label">
+                ABOUT MEDNOVA
+            </span>
+
+            <h2>
+                Where technology
+                meets <span>human care.</span>
+            </h2>
+
+            <p>
+                At MedNova, we believe healthcare should be
+                advanced, accessible and personal. Our team
+                combines medical expertise with modern
+                technology to provide better patient experiences.
+            </p>
+
+
+            <div class="check-list">
+
+                <div>
+                    <span>✓</span>
+                    Experienced Specialists
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    Advanced Medical Technology
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    Patient-Centered Care
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    24/7 Emergency Services
+                </div>
+
+            </div>
+
+
+            <button class="primary-btn" onclick="openAppointment()">
+                Meet Our Team →
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= DOCTORS ================= -->
+
+    <section class="doctors" id="doctors">
+
+        <div class="section-heading">
+
+            <span>OUR SPECIALISTS</span>
+
+            <h2>
+                Meet the people
+                <strong>behind your care.</strong>
+            </h2>
+
+        </div>
+
+
+        <div class="doctor-grid">
+
+
+            <div class="doctor-card">
+
+                <img src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&w=600&q=85"
+                    alt="Doctor">
+
+                <div class="doctor-details">
+
+                    <h3>Dr. Sarah Thomas</h3>
+
+                    <p>Senior Cardiologist</p>
+
+                    <div class="rating">
+                        ★★★★★
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="doctor-card">
+
+                <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=600&q=85"
+                    alt="Doctor">
+
+                <div class="doctor-details">
+
+                    <h3>Dr. David Kumar</h3>
+
+                    <p>Neurologist</p>
+
+                    <div class="rating">
+                        ★★★★★
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="doctor-card">
+
+                <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=600&q=85"
+                    alt="Doctor">
+
+                <div class="doctor-details">
+
+                    <h3>Dr. Emily Joseph</h3>
+
+                    <p>Orthopedic Specialist</p>
+
+                    <div class="rating">
+                        ★★★★★
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= EMERGENCY ================= -->
+
+    <section class="emergency-section">
+
+        <div class="emergency-content">
+
+            <div class="emergency-icon">
+                🚑
+            </div>
+
+            <div>
+
+                <span>EMERGENCY SERVICES</span>
+
+                <h2>
+                    Need urgent medical help?
+                </h2>
+
+                <p>
+                    Our emergency team is available
+                    24 hours a day, 7 days a week.
+                </p>
+
+            </div>
+
+            <a href="tel:108" class="emergency-button">
+                📞 Call 108
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact" id="contact">
+
+        <div class="section-heading">
+
+            <span>CONTACT US</span>
+
+            <h2>
+                We're here when
+                <strong>you need us.</strong>
+            </h2>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+            <div class="contact-card">
+
+                <div>📍</div>
+
+                <h3>Our Location</h3>
+
+                <p>
+                    Tiruchirappalli,
+                    Tamil Nadu, India
+                </p>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <div>📞</div>
+
+                <h3>Call Us</h3>
+
+                <p>
+                    +91 98765 43210
+                </p>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <div>✉️</div>
+
+                <h3>Email</h3>
+
+                <p>
+                    contact@mednova.com
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-main">
+
+            <div>
+
+                <div class="footer-logo">
+                    ✚ MedNova
+                </div>
+
+                <p>
+                    Advanced healthcare.
+                    Human connection.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>Quick Links</h3>
+
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#doctors">Doctors</a>
+
+            </div>
+
+
+            <div>
+
+                <h3>Patient Care</h3>
+
+                <a href="#">Appointments</a>
+                <a href="#">Emergency</a>
+                <a href="#">Departments</a>
+
+            </div>
+
+
+            <div>
+
+                <h3>Follow Us</h3>
+
+                <div class="social">
+                    Instagram
+                    Facebook
+                    LinkedIn
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            © 2026 MedNova Hospital.
+            All Rights Reserved.
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= APPOINTMENT POPUP ================= -->
+
+    <div class="modal" id="appointmentModal">
+
+        <div class="modal-box">
+
+            <button class="close" onclick="closeAppointment()">
+                ×
+            </button>
+
+            <div class="modal-title">
+
+                <span>BOOK APPOINTMENT</span>
+
+                <h2>
+                    Schedule your visit
+                </h2>
+
+                <p>
+                    Fill in your details and our team
+                    will contact you.
+                </p>
+
+            </div>
+
+
+            <form id="appointmentForm">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Full Name"
+                    required
+                >
+
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Phone Number"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Email Address"
+                    required
+                >
+
+                <select id="department" required>
+
+                    <option value="">
+                        Select Department
+                    </option>
+
+                    <option>
+                        Cardiology
+                    </option>
+
+                    <option>
+                        Neurology
+                    </option>
+
+                    <option>
+                        Orthopedics
+                    </option>
+
+                    <option>
+                        General Medicine
+                    </option>
+
+                </select>
+
+
+                <input
+                    type="date"
+                    id="date"
+                    required
+                >
+
+
+                <button
+                    type="submit"
+                    class="submit-button"
+                >
+                    Confirm Appointment →
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= WHATSAPP ================= -->
+
+    <a
+        href="https://wa.me/919876543210?text=Hello%20MedNova%20Hospital%2C%20I%20would%20like%20to%20book%20an%20appointment."
+        class="whatsapp"
+        target="_blank"
+    >
+        <span>💬</span>
+        <div class="whatsapp-tooltip">
+            Chat with us
+        </div>
+    </a>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
